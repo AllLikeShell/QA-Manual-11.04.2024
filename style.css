@@ -1,0 +1,99 @@
+
+#main-band, #second-band {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    font-size: 20px;
+}
+
+#third-band {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container-1, .container-2, .container-3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container-1 {
+    padding: 20px;
+    text-align: left;
+}
+
+.image-1, .text-1, .image-2, .text-2, .image-3, .text-3 {
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.image-1 img, .container-2 img, .container-3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-1, .container-2 p, .container-3 p {
+    margin-left: 20px;
+}
+
+.button {
+    background-color: gold;
+    margin: 70px;
+    width: 200px;
+    height: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+#header-image {
+    max-width: 50%;
+    height: auto;
+    margin-left: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    margin: 25px;
+    text-align: center;
+}
+
+p b {
+    color: red;
+}
+
+.image-2 {
+margin-left: 45px;
+}
+
+.image-3 {
+    margin-left: 45px;
+    width: 500px;
+}
